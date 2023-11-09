@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #2C302E;
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, 200px);
+}
+#restart{
+    align-items: center;
+  
+    font-size: 50px;
+  }
+
+  
+
+h1 {
+  text-align: center;
+  color: #FFFCE8;
+}
+
+p {
+  text-align: center;
+  color: #FFFCE8;
+}
+
+.container>div:nth-child(1n) {
+  background-color: #F8F0FB;
+}
+
+.bottom{
+  font-size: 50px;
+}
+
+.container>div {
+  align-items: center;
+  border: solid black thick;
+  color: white;
+  display: flex;
+  font-size: 3em;
+  justify-content: center;
+}
